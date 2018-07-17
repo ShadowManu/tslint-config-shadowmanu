@@ -2,7 +2,7 @@
   "name": "tslint-config-shadowmanu",
   "version": "0.1.0",
   "description": "opinionated tslint-config based on strictness and comfort",
-  "main": "index.js",
+  "main": "tslint.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,12 @@
     "tslint-config"
   ],
   "author": "Manuel Pacheco",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "typescript": "^2.9.2"
+  }
 }
